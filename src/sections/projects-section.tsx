@@ -87,7 +87,7 @@ export function ProjectsSection() {
                 {/* Project Content */}
                 <div className="p-4 flex-1 flex flex-col">
                   {/* Header */}
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                  <div className="flex flex-row sm:items-start sm:justify-between gap-2 mb-3">
                     <div className="flex-1">
                       <Heading
                         level="h5"
@@ -96,7 +96,7 @@ export function ProjectsSection() {
                       >
                         {project.title}
                       </Heading>
-                      <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mb-2">
+                      <div className="flex flex-row sm:items-center gap-1 sm:gap-3 mb-2">
                         <div className="flex items-center gap-1.5 text-muted-foreground">
                           <Tag className="w-3.5 h-3.5" />
                           <Text size="sm">{project.category}</Text>
