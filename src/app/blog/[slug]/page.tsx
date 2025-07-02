@@ -64,7 +64,7 @@ const Page = async (props: { params: Promise<Params> }) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="container mx-auto px-4 md:pt-24 py-8 max-w-4xl">
+      <div className="container mx-auto px-4 md:pt-24 pt-8 max-w-4xl">
         <article className="prose prose-lg dark:prose-invert mx-auto">
           <BlogPostContent post={result.post} />
         </article>
