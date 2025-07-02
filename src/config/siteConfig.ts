@@ -93,11 +93,11 @@ export const siteConfig = {
           year: "2025",
           status: "Live",
           technologies: ["React", "TypeScript", "Web Audio API", "Framer Motion", "Tailwind CSS"],
-          liveUrl: "https://wavelength-demo.vercel.app",
-          githubUrl: "https://github.com/yourusername/wavelength",
+          liveUrl: "https://web-arcs-demo.vercel.app",
+          githubUrl: "https://github.com/yourusername/web-arcs",
           image: {
-            src: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
-            alt: "Wavelength Project - Audio Visualization App",
+            src: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3",
+            alt: "Web Arcs Project - Audio Visualization App",
             width: 500,
             height: 300
           }
@@ -113,7 +113,7 @@ export const siteConfig = {
           liveUrl: "https://spectrum-flow.vercel.app",
           githubUrl: "https://github.com/yourusername/spectrum-flow",
           image: {
-            src: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+            src: "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8",
             alt: "Spectrum Flow - Project Management Dashboard",
             width: 500,
             height: 300
@@ -147,7 +147,7 @@ export const siteConfig = {
           liveUrl: "https://ecommerce-platform-demo.vercel.app",
           githubUrl: "https://github.com/yourusername/ecommerce-platform",
           image: {
-            src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+            src: "https://images.unsplash.com/photo-1605379399843-5870eea9b74e",
             alt: "E-Commerce Platform - Online Shopping",
             width: 500,
             height: 300
