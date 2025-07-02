@@ -47,7 +47,7 @@ export const PostContent = ({ content }: { content: string }) => {
   });
   return (
     <div
-      className="blog-content mx-auto"
+      className="blog-content mx-auto overflow-hidden"
       dangerouslySetInnerHTML={{ __html: sanitizedContent }}
     ></div>
   );
